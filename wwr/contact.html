@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Dry Oar</title>
+        <meta name="description" content="Get in touch with Dry Oar for inquiries, feedback, or reservations.">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+        <style>
+            main {
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Dry Oar Logo" style="height: 50px;">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section class="team-section">
+                <h1>Meet Our Team</h1>
+                <div class="team-gallery">
+                    <figure>
+                        <img src="images/john-doe.jpg" alt="John Doe">
+                        <figcaption>John Doe<br>Tour Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/jane-smith.jpg" alt="Jane Smith">
+                        <figcaption>Jane Smith<br>Customer Support</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/chris-johnson.jpg" alt="Chris Johnson">
+                        <figcaption>Chris Johnson<br>Safety Manager</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>We'd love to hear from you! Reach out to us using the information or form below: </p>
+                    <div class="info-box">
+                        <img src="images/mail.png" alt="Email">
+                        <p>contact@company.com</p>
+                    </div>
+                    <div class="info-box">
+                        <img src="images/phone.png" alt="Phone">
+                        <p>(123) 123-3213-23</p>
+                    </div>
+
+                    <div style="margin-top: 20px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.093108083344!2d-122.41941558468185!3d37.77492927975839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581547b7e4e15%3A0x539b3f516db283e6!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </fieldset>
+                
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                
+                    
+                    <div class="subscribe-box">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    
+                
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-left">
+                <p>Dry Oar &copy; 2024 - Evan Kemp</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </body>
+</html>
